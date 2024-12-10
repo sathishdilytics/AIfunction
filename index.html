@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Progress Display</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="main-container">
+    <!-- First Page -->
+    <div id="first-page" class="page">
+      <div class="progress-container">
+        <div class="title">
+          <a>How do you see AI driving value in your data analytics strategy?</a>
+        </div>
+        <div class="options">
+          <div class="option" data-value="1">
+            <div class="circle"></div>
+            <span>I want AI to ensure data compliance and security.</span>
+          </div>
+          <div class="line"></div>
+          <div class="option" data-value="1">
+            <div class="circle"></div>
+            <span>I want AI to extract actionable insights from large datasets.</span>
+          </div>
+          <div class="line"></div>
+          <div class="option" data-value="1">
+            <div class="circle"></div>
+            <span>I want AI to identify potential risks and opportunities.</span>
+          </div>
+          <div class="line"></div>
+          <div class="option" data-value="1">
+            <div class="circle"></div>
+            <span>I want AI to predict sales and revenue growth.</span>
+          </div>
+          <div class="line"></div>
+          <div class="option" data-value="1">
+            <div class="circle"></div>
+            <span>I want AI to streamline data storage and management.</span>
+          </div>
+        </div>
+        <div class="cta-section">
+          <button class="submit-btn">Submit</button>
+          <div class="desired-solution">Desired solution not listed?</div>
+        </div>
+      </div>
+    </div>
+    <!-- Second Page -->
+    <div id="second-page" class="page" style="display: none;">
+      <div class="second-page">
+        <div class="percentage">0%</div>
+        <div class="progress-bar">
+          <div class="progress" style="width: 0%;"></div>
+        </div>
+        <div class="dynamic-text">
+          You've selected a great starting point, and we're covering some of what you're looking for. Let us help you complete the rest with our tailored solutions.
+        </div>
+        <div class="cta-section">
+          <button class="talk-btn">Talk to Us</button>
+          <button class="go-back-btn">Go Back &gt;</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <script src="script.js"></script>
+</body>
+</html>

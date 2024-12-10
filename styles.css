@@ -1,0 +1,116 @@
+body {
+      font-family: 'Lato', sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    #main-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .page {
+      width: 540px;
+      height: 605px;
+      background: linear-gradient(180deg, #FFFFFF 0%, #C2E7EB 100%);
+      border-radius: 20px;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .progress-container {
+      padding: 44px 59px;
+    }
+    .title {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      color: #004E91;
+      max-width: 452px;
+      margin-bottom: 40px;
+    }
+    .options {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .option {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 16px;
+      color: #000000;
+      cursor: pointer;
+    }
+    .circle {
+      width: 19px;
+      height: 19px;
+      border: 1px solid #004E91;
+      border-radius: 50%;
+      transition: background-color 0.3s ease;
+    }
+    .circle.selected {
+      background-color: #004E91;
+    }
+    .line {
+      width: 452px;
+      height: 1px;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    .cta-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 40px;
+      gap: 25px;
+    }
+    .submit-btn,
+    .talk-btn {
+      width: 162px;
+      height: 64px;
+      background-color: #004E91;
+      border: none;
+      border-radius: 4px;
+      color: #FFFFFF;
+      cursor: pointer;
+    }
+    .desired-solution,
+    .go-back-btn {
+      font-size: 16px;
+      color: #004E91;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+    .second-page {
+      padding: 44px 44px;
+      text-align: left;
+    }
+    .percentage {
+      font-size: 144px;
+      font-weight: 700;
+      color: #004E91;
+      transition: font-size 1s ease;
+    }
+    .progress-bar {
+      width: 452px;
+      height: 10px;
+      background-color: #D9D9D9;
+      border-radius: 5px;
+      margin: 20px 0;
+      position: relative;
+    }
+    .progress {
+      height: 10px;
+      border-radius: 5px;
+      background-color: #004E91;
+      width: 0%;
+      transition: width 1s ease;
+    }
+    .dynamic-text {
+      font-size: 16px;
+      line-height: 22px;
+      color: #1B2729;
+      margin-top: 40px;
+    }
